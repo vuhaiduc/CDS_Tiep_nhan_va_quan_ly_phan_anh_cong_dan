@@ -4,7 +4,7 @@
     </a>
 </h2>
 <h2 align="center">
-   GỬI EMAIL MÔ PHỎNG SMTP QUA SOCKET
+   HỆ THỐNG TIẾP NHẬN PHẢN ÁNH VÀ XỬ LÝ PHẢN ÁNH CỦA DÂN
 </h2>
 <div align="center">
     <p align="center">
@@ -22,18 +22,24 @@
 ---
 
 ## 📖 1. Giới thiệu hệ thống
-Đề tài xây dựng ứng dụng **gửi email mô phỏng giao thức SMTP qua TCP Socket**.  
-Hệ thống gồm 2 thành phần:
+Đề tài xây dựng ứng dụng **Hệ thống tiếp nhận và xử lý phản ánh của dân**.  
+Hệ thống nhằm hỗ trợ **chuyển đổi số trong quản lý hành chính**, giúp người dân dễ dàng:
+- Gửi phản ánh, kiến nghị
+- Đính kèm hình ảnh/video minh chứng
+- Theo dõi trạng thái xử lý
 
-- **Client GUI (Java Swing)**: Cung cấp giao diện đồ hoạ cho người dùng (trang đăng ký, đăng nhập, trang soạn mail và hộp thư đến ).  
-- **SMTP Server (Java)**: Chạy nền và lắng nghe các kết nối TCP từ nhiều client trên port 2525 và 2626, xử lý các lệnh SMTP chuẩn, quản lý danh sách người dùng và gửi mail tới người nhận tương ứng.
+Cán bộ quản trị có thể:
+- Tiếp nhận danh sách phản ánh
+- Cập nhật tiến độ & phản hồi lại người gửi
 
 Luồng hoạt động:
 
-- Người dùng mở ra giao diện đăng ký, đăng nhập.
-- Tạo ra 2 tài khoản là người gửi và người nhận.
-- Client người nhận sẽ nhận mail từ người gửi và email sẽ hiển thị trực tiếp trên giao diện hộp thư.
-- Email được lưu vào file /emails/ kèm thời gian gửi.
+- Người dùng truy cập hệ thống.
+- Gửi phản ánh, kiến nghị.
+- Hệ thống tiếp nhận phản ánh và gửi đến quản trị viên.
+- Cán bộ quản trị đăng nhập và tiếp nhận phản ánh.
+- Cán bộ xem và xử lý phản ánh cảu người dân, sau đó thông báo lại.
+- Người dân nhận thông báo và theo dõi tình hình.
 
 ---
 
