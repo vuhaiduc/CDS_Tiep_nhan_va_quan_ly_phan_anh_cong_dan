@@ -4,7 +4,7 @@
     </a>
 </h2>
 <h2 align="center">
-   HỆ THỐNG TIẾP NHẬN PHẢN ÁNH VÀ XỬ LÝ PHẢN ÁNH CÔNG DÂN
+   HỆ THỐNG TIẾP NHẬN VÀ QUẢN LÝ PHẢN ÁNH CÔNG DÂN
 </h2>
 <div align="center">
     <p align="center">
