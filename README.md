@@ -46,16 +46,29 @@ Luồng hoạt động:
 ## ⚙️ 2. Công nghệ sử dụng
 Ứng dụng được phát triển bằng:
 - **Ngôn ngữ lập trình và giao diện**:  
-  <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white"> 
-  <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white"> 
-  <img src="https://img.shields.io/badge/JavaScript-ES6-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black">
+  <a href="https://developer.mozilla.org/en-US/docs/Web/HTML">
+    <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white">
+  </a>
+  <a href="https://developer.mozilla.org/en-US/docs/Web/CSS">
+    <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white">
+  </a>
+  <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript">
+    <img src="https://img.shields.io/badge/JavaScript-ES6-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black">
+  </a>
 
 - **Lưu trữ dữ liệu (Client-Side)**:  
-  <img src="https://img.shields.io/badge/LocalStorage-000000?style=for-the-badge&logo=googlechrome&logoColor=white">
+  <a href="https://developer.mozilla.org/en-US/docs/Web/API/Window/localStorage">
+    <img src="https://img.shields.io/badge/LocalStorage-000000?style=for-the-badge&logo=googlechrome&logoColor=white">
+  </a>
 
 - **Công cụ phát triển**:  
-  <img src="https://img.shields.io/badge/Visual%20Studio%20Code-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white"> 
-  <img src="https://img.shields.io/badge/Live%20Server-FF9800?style=for-the-badge&logo=vercel&logoColor=white">
+  <a href="https://code.visualstudio.com/">
+    <img src="https://img.shields.io/badge/Visual%20Studio%20Code-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white">
+  </a>
+  <a href="https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer">
+    <img src="https://img.shields.io/badge/Live%20Server-FF9800?style=for-the-badge&logo=vercel&logoColor=white">
+  </a>
+
 
 
 ---
