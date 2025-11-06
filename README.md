@@ -45,13 +45,9 @@ Luồng hoạt động:
 
 ## ⚙️ 2. Công nghệ sử dụng
 Ứng dụng được phát triển bằng:
-- **Ngôn ngữ lập trình**: <a href="https://www.oracle.com/java/"><img src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white" alt="Java"></a>
-- **Giao diện người dùng**: <a href="https://docs.oracle.com/javase/tutorial/uiswing/"><img src="https://img.shields.io/badge/Java%20Swing-007396?style=for-the-badge&logo=java&logoColor=white" alt="Swing"></a>
-- **Socket**: <img src="https://img.shields.io/badge/TCP%20Socket-000000?style=for-the-badge" alt="Socket">
-
-- **Kiến trúc**:  
-  - `Client`: giao diện người dùng (SMTPClientGUI).  
-  - `Server`: lắng nghe socket, xử lý SMTP, lưu email ra file.  
+- **Ngôn ngữ lập trình và giao diện**: <a href="https://www.oracle.com/java/"><img src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white" alt="HTML, CSS3"></a>
+- **Lưu trữ dữ liệu**: <a href="https://docs.oracle.com/javase/tutorial/uiswing/"><img src="https://img.shields.io/badge/Java%20Swing-007396?style=for-the-badge&logo=java&logoColor=white" alt="LocalStorage"></a>
+- **Công cụ phát triển**: <img src="https://img.shields.io/badge/TCP%20Socket-000000?style=for-the-badge" alt="Visual Studio Code + Live Server"> 
 
 ---
 
