@@ -108,7 +108,7 @@ Luồng hoạt động:
 ## 🛠️ 4. Các bước cài đặt
 1. **Clone source code**  
    ```bash
-   git clone https://github.com/<username>/<xu-ly-phan-anh-cong-dan>.git
+   git clone https://github.com/Chuyen_doi_so_1604/<xu-ly-phan-anh-cong-dan>.git
     cd <xu-ly-phan-anh-cong-dan>
 
 2. **Mở project trong Visual Studio Code**
