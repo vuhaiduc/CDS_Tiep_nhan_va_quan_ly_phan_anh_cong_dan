@@ -115,25 +115,22 @@ Luồng hoạt động:
    - Dùng Visual Studio Code.
    - Mở thư mục dự án trực tiếp.
 3. **Khởi chạy dự án**
-   - Cài Extension Liver Server.
-   - Mở file 
-4. **Chạy Server**
-   - Mở file smtpserver/ServerMain.java.
-   - Run as Java Application → Server lắng nghe port 2525.
-   - Console sẽ hiển thị log kết nối khi có client đăng nhập hoặc gửi email.
-5. **Chạy Client GUI**
-   - Mở file smtpclient/ClientLoginUI.java (giao diện người gửi).
-   - Mở file smtpclient/ReceiverLoginUI.java (giao diện người nhận).
-   - Run as Java Application → mở giao diện người dùng.
-6. **Kết nối và gửi email**
-   - Nhập email người nhận để gửi.
-   - Nhập Người nhận, Tiêu đề, Nội dung, File kèm theo.
-   - Người nhận với tài khoản đăng nhập khác sẽ nhận Mail ngay lập tức và xem trực tiếp trong giao diện.
+   - Mở file login cho trang người dùng.
+   - Mở file admin_login cho trang người quản trị.
+4. **Đăng ký và đăng nhập**
+   - Người dùng tạo tài khoản với form đăng ký.
+   - Đăng nhập để truy cập trang và gửi phản ánh.
+   - Bên phía quản trị thì có tài khoản mặc định dành cho quản trị.
+5. **Gửi phản ánh**
+   - Người dùng nhập (tiêu đề phản ánh, nội dung chi tiết và hình ảnh kèm theo).
+   - Nhấn gửi -> phản ánh sẽ được lưu trong LocalStorage và hiển thị cho trang quản trị viên.
+6. **Quản trị xử lý phản ánh**
+   - Quản trị viên sau khi tiếp nhận phản ánh sẽ gửi cho bên có thẩm quyền xử lý.
+   - Phản ánh được xử lý hay chưa sẽ được đánh dấu kèm theo chi tiết gửi lại cho người dùng.
 
-7. **Kiểm tra file email**
-   - Vào thư mục emails/ của server.
-   - Email được lưu chỉ khi receiver nhận
-   - Email sẽ được lưu dưới dạng ``` bash email_yyyyMMdd_HHmmss.txt ```.
+7. **Kiểm tra dữ liệu lưu trữ**
+   - Xem các thông tin như tài khoản ``` F12 → Application → LocalStorage ```.
+   - Dữ liệu được lưu (tài khoản người dùng, danh sách phản ánh).
   
 ---
 
@@ -149,39 +146,4 @@ Thực hiện bởi Vũ Hải Đức - CNTT 16-04, trường Đại học Đại
 Website • GitHub • Contact Me
 
 </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
