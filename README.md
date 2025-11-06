@@ -73,18 +73,18 @@ Luồng hoạt động:
 
 ---
 
-## 🖼️ 3. Một số hình ảnh hệ thống 
+## 🖼️ 3. Một số hình ảnh giao diện hệ thống
 
 <p align="center">
-    <img width="1920" height="1013" alt="Screenshot (344)" src="https://github.com/user-attachments/assets/6efbda8b-a30a-408d-8bd0-0dca949885ca" />
-    <em>Giao diện người gửi và người nhận</em><br/>
+    <img width="1889" height="880" alt="Screenshot (352)" src="https://github.com/user-attachments/assets/c01ea5ac-6244-4a14-a16b-4470d7448280" />
+    <em>Giao diện trang người dân phản ánh</em><br/>
 </p>
 
 
 
 <p align="center">
     <img width="1920" height="1009" alt="Screenshot (345)" src="https://github.com/user-attachments/assets/1b6c366f-da11-4c2a-b1aa-751b737a8ff8" />
-    <em>Giao diện console Server</em><br/>
+    <em>Giao diện trang người quản trị</em><br/>
 </p>
 
 
