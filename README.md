@@ -22,7 +22,7 @@
 ---
 
 ## 📖 1. Giới thiệu hệ thống
-Đề tài xây dựng ứng dụng **Hệ thống tiếp nhận và xử lý phản ánh của dân**.  
+Đề tài xây dựng ứng dụng **Hệ thống tiếp nhận và quản lý phản ánh công dân**.  
 Hệ thống nhằm hỗ trợ **chuyển đổi số trong quản lý hành chính**, giúp người dân dễ dàng:
 - Gửi phản ánh, kiến nghị
 - Đính kèm hình ảnh/video minh chứng
