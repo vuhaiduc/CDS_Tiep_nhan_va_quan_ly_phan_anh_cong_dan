@@ -4,7 +4,7 @@
     </a>
 </h2>
 <h2 align="center">
-   HỆ THỐNG TIẾP NHẬN PHẢN ÁNH VÀ XỬ LÝ PHẢN ÁNH CỦA DÂN
+   HỆ THỐNG TIẾP NHẬN PHẢN ÁNH VÀ XỬ LÝ PHẢN ÁNH CÔNG DÂN
 </h2>
 <div align="center">
     <p align="center">
@@ -88,13 +88,6 @@ Luồng hoạt động:
 
 
 <p align="center">
-    <img width="1920" height="1009" alt="Screenshot (345)" src="https://github.com/user-attachments/assets/1b6c366f-da11-4c2a-b1aa-751b737a8ff8" />
-    <em>Giao diện trang người quản trị</em><br/>
-</p>
-
-
-
-<p align="center">
     <img width="1890" height="899" alt="Screenshot (354)" src="https://github.com/user-attachments/assets/40bdab1e-847a-4c04-93e1-1fc972cc8a14" />
     <em>Giao diện tin tức và thông báo</em><br/>
 </p>
@@ -115,14 +108,15 @@ Luồng hoạt động:
 ## 🛠️ 4. Các bước cài đặt
 1. **Clone source code**  
    ```bash
-   git clone https://github.com/vuhaiduc/LTM-1604-D13-Gui-email-mo-phong-SMTP-qua-Socket.git
-   cd LTM-1604-D13-Gui-email-mo-phong-SMTP-qua-Socket
+   git clone https://github.com/<username>/<xu-ly-phan-anh-cong-dan>.git
+    cd <xu-ly-phan-anh-cong-dan>
 
-2. **Mở project trong IDE**
-   - Dùng IntelliJ IDEA, Eclipse hoặc NetBeans.
-   - Import project Java bình thường.
-3. **Cấu hình JDK**
-   - Chọn JDK 17 hoặc cao hơn.
+2. **Mở project trong Visual Studio Code**
+   - Dùng Visual Studio Code.
+   - Mở thư mục dự án trực tiếp.
+3. **Khởi chạy dự án**
+   - Cài Extension Liver Server.
+   - Mở file 
 4. **Chạy Server**
    - Mở file smtpserver/ServerMain.java.
    - Run as Java Application → Server lắng nghe port 2525.
