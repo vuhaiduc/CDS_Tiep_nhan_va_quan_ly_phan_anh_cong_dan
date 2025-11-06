@@ -77,9 +77,14 @@ Luồng hoạt động:
 
 <p align="center">
     <img width="1889" height="880" alt="Screenshot (352)" src="https://github.com/user-attachments/assets/c01ea5ac-6244-4a14-a16b-4470d7448280" />
-    <em>Giao diện trang người dân phản ánh</em><br/>
+    <em>Giao diện gửi phản ảnh</em><br/>
 </p>
 
+
+<p align="center">
+    <img width="1895" height="888" alt="Screenshot (353)" src="https://github.com/user-attachments/assets/4582d1f9-4a8f-469d-9abf-e9aa6ae7ff6e" />
+    <em>Giao diện danh sách đã phản ánh</em><br/>
+</p>
 
 
 <p align="center">
@@ -90,8 +95,19 @@ Luồng hoạt động:
 
 
 <p align="center">
-    <img width="1920" height="1013" alt="Screenshot (346)" src="https://github.com/user-attachments/assets/31576cc3-6b7f-4174-83d9-a81baa0bc83e" />
-    <em>Giao diện bên người nhận Email</em><br/>
+    <img width="1890" height="899" alt="Screenshot (354)" src="https://github.com/user-attachments/assets/40bdab1e-847a-4c04-93e1-1fc972cc8a14" />
+    <em>Giao diện tin tức và thông báo</em><br/>
+</p>
+
+
+<p align="center">
+    <img width="1889" height="873" alt="Screenshot (356)" src="https://github.com/user-attachments/assets/f1433ca0-1ac7-457c-a459-37b90b6a5e69" />
+    <em>Giao diện trang quản trị</em><br/>
+</p>
+
+<p align="center">
+    <img width="1897" height="914" alt="Screenshot (355)" src="https://github.com/user-attachments/assets/004b3ac9-88a2-48ee-995e-db3e7bf76c02" />
+    <em>Giao diện những phản ánh đã xử lý bên trang quản trị</em><br/>
 </p>
 
 ---
