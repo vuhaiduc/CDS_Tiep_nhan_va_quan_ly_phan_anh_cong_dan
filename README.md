@@ -45,9 +45,18 @@ Luồng hoạt động:
 
 ## ⚙️ 2. Công nghệ sử dụng
 Ứng dụng được phát triển bằng:
-- **Ngôn ngữ lập trình và giao diện**: <a href="https://www.oracle.com/java/"><img src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white" alt="HTML, CSS3"></a>
-- **Lưu trữ dữ liệu**: <a href="https://docs.oracle.com/javase/tutorial/uiswing/"><img src="https://img.shields.io/badge/Java%20Swing-007396?style=for-the-badge&logo=java&logoColor=white" alt="LocalStorage"></a>
-- **Công cụ phát triển**: <img src="https://img.shields.io/badge/TCP%20Socket-000000?style=for-the-badge" alt="Visual Studio Code + Live Server"> 
+- **Ngôn ngữ lập trình và giao diện**:  
+  <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white"> 
+  <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white"> 
+  <img src="https://img.shields.io/badge/JavaScript-ES6-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black">
+
+- **Lưu trữ dữ liệu (Client-Side)**:  
+  <img src="https://img.shields.io/badge/LocalStorage-000000?style=for-the-badge&logo=googlechrome&logoColor=white">
+
+- **Công cụ phát triển**:  
+  <img src="https://img.shields.io/badge/Visual%20Studio%20Code-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white"> 
+  <img src="https://img.shields.io/badge/Live%20Server-FF9800?style=for-the-badge&logo=vercel&logoColor=white">
+
 
 ---
 
