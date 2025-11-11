@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width,initial-scale=1"/>
+  <title>Đăng ký</title>
+  <link rel="stylesheet" href="../css/auth.css" />
+</head>
+<body class="auth-page">
+  <main class="auth-container">
+    <div class="auth-card">
+      <h2>Đăng ký</h2>
+      <form id="registerForm" autocomplete="off">
+        <label>Họ và tên</label>
+        <input id="name" type="text" required placeholder="Nguyễn Văn A">
+        <label>Email</label>
+        <input id="email" type="email" required placeholder="email@vd.com">
+        <label>Mật khẩu</label>
+        <div class="pw-row">
+          <input id="password" type="password" required placeholder="Mật khẩu">
+          <button id="togglePw" type="button" class="show-btn">👁</button>
+        </div>
+        <label>Xác nhận mật khẩu</label>
+        <input id="confirmPassword" type="password" required placeholder="Xác nhận mật khẩu">
+        <button type="submit" class="btn primary full">Đăng ký</button>
+      </form>
+      <div class="auth-foot">
+        <span>Đã có tài khoản?</span>
+        <a href="login.html">Đăng nhập</a>
+      </div>
+    </div>
+  </main>
+  <script src="../js/register.js"></script>
+</body>
+</html>

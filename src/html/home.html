@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Hệ thống tiếp nhận phản ánh</title>
+  <script>
+    document.addEventListener("DOMContentLoaded", () => {
+      const loggedInUser = localStorage.getItem("currentUser");
+      if (!loggedInUser) window.location.replace("./login.html");
+
+      // Xem trước ảnh khi chọn file
+      const imageInput = document.getElementById("imageInput");
+      const imgPreview = document.getElementById("imgPreview");
+
+      imageInput.addEventListener("change", () => {
+        const file = imageInput.files[0];
+        if (file) {
+          const reader = new FileReader();
+          reader.onload = (e) => {
+            imgPreview.innerHTML = `<img src="${e.target.result}" alt="Xem trước">`;
+          };
+          reader.readAsDataURL(file);
+        } else {
+          imgPreview.innerHTML = "Chưa chọn ảnh";
+        }
+      });
+    });
+  </script>
+  <link rel="stylesheet" href="../css/home.css" />
+</head>
+<body>
+  <!-- Header -->
+  <header class="site-header">
+    <div class="header-inner">
+      <div class="brand">
+        <img class="logo" src="file:///C:/Users/Admin/Downloads/z7124628162560_550cf460932c5867c27bcd9babde6819_preview_rev_1-removebg-preview%20(1).png" alt="logo">
+        <div class="brand-text">
+          <div class="app-title">HỆ THỐNG TIẾP NHẬN PHẢN ÁNH</div>
+        </div>
+      </div>
+      <div id="userArea" class="user-area"></div>
+    </div>
+  </header>
+
+  <main class="page-main">
+    <!-- Form gửi phản ánh -->
+    <section class="panel form-panel">
+      <h2>📢 Gửi phản ánh</h2>
+      <form id="reportForm" class="report-form" autocomplete="off">
+        <div class="form-grid">
+          <div>
+            <label>Họ và tên</label>
+            <input id="fullname" type="text" placeholder="Nguyễn Văn A" required>
+          </div>
+          <div>
+            <label>Số điện thoại</label>
+            <input id="phone" type="tel" placeholder="0912xxxxxx">
+          </div>
+          <div>
+            <label>Email</label>
+            <input id="email" type="email" placeholder="email@vd.com" required>
+          </div>
+          <div>
+            <label>Danh mục</label>
+            <select id="category">
+              <option value="Giao thông">Giao thông</option>
+              <option value="Môi trường">Môi trường</option>
+              <option value="An ninh">An ninh</option>
+              <option value="Dịch vụ công">Dịch vụ công</option>
+              <option value="Khác">Khác</option>
+            </select>
+          </div>
+        </div>
+
+        <div class="form-group">
+          <label>Tiêu đề</label>
+          <input id="title" type="text" placeholder="Ví dụ: Ô nhiễm cống rãnh phố X" required>
+        </div>
+
+        <div class="form-group">
+          <label>Nội dung</label>
+          <textarea id="desc" rows="5" placeholder="Mô tả chi tiết: địa chỉ, thời gian, ảnh (nếu có)..." required></textarea>
+        </div>
+
+        <div class="form-grid">
+          <div>
+            <label>Ảnh minh họa (tùy chọn)</label>
+            <input id="imageInput" type="file" accept="image/*">
+          </div>
+          <div class="preview-box">
+            <label>Xem trước</label>
+            <div id="imgPreview" class="img-preview">Chưa chọn ảnh</div>
+          </div>
+        </div>
+
+        <div class="actions">
+          <button id="submitBtn" class="btn primary" type="submit">Gửi phản ánh</button>
+          <button id="clearBtn" class="btn ghost" type="button">Xóa form</button>
+        </div>
+      </form>
+    </section>
+
+    <!-- Danh sách phản ánh -->
+    <section class="panel my-complaints-panel">
+      <h2>📜 Danh sách phản ánh của tôi</h2>
+      <div id="myComplaintList" class="complaint-list">Chưa có phản ánh</div>
+    </section>
+
+    <!-- Tin tức -->
+    <section class="news-section">
+      <h2>📰 Tin tức & Thông báo</h2>
+      <div class="news-container">
+        <div class="news-card">
+          <img src="https://bcp.cdnchinhphu.vn/334894974524682240/2022/7/22/ket-cau-ha-tang-giao-thong-duong-bo-1658482994724969609410.jpg" alt="">
+          <div class="news-overlay">
+            <h3>Hà Nội nâng cấp hệ thống hạ tầng giao thông</h3>
+            <p>Thành phố triển khai nhiều dự án mở rộng đường, giảm ùn tắc.</p>
+          </div>
+        </div>
+
+        <div class="news-card">
+          <img src="https://mtcs.1cdn.vn/2024/01/09/moi-truong.jpeg" alt="">
+          <div class="news-overlay">
+            <h3>Chiến dịch làm sạch môi trường đô thị</h3>
+            <p>Các quận phát động nhiều chương trình tình nguyện dọn vệ sinh.</p>
+          </div>
+        </div>
+
+        <div class="news-card">
+          <img src="https://image.anninhthudo.vn/1200x630/Uploaded/2025/ohaybun/2023_11_29/anhhadong-3636.jpg" alt="">
+          <div class="news-overlay">
+            <h3>Tăng cường đảm bảo an ninh đô thị</h3>
+            <p>Lực lượng chức năng kiểm tra, xử lý các vi phạm trật tự công cộng.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Modal xem ảnh -->
+  <div id="imgModal" class="modal" style="display:none">
+    <div class="modal-inner">
+      <button id="modalClose" class="modal-close">✕</button>
+      <img id="modalImg" alt="preview" />
+    </div>
+  </div>
+
+  <footer class="site-footer">
+    © 2025 Hệ thống phản ánh công dân 
+  </footer>
+
+  <script src="../js/home.js"></script>
+</body>
+</html>
